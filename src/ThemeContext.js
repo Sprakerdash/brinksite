@@ -72,11 +72,14 @@ html{
     left:50%;
     width: 6rem;
     height: 6rem;
-    border: 2px solid ${({ theme }) => theme.colors.lblue};
+    border: 2px solid ${({ theme }) => theme.colors.blue};
     border-radius: 50%;
     transition: transform .2s linear;
   }
-  
+  .cursor:after{
+    opacity: 0;
+    background-color:${({ theme }) => theme.colors.blue};
+  }
   .comingSoon{
     color: #7d7c7c !important;
     pointer-events: none !important;
