@@ -76,10 +76,7 @@ html{
     border-radius: 50%;
     transition: transform .2s linear;
   }
-  .cursor:after{
-    opacity: 0;
-    background-color:${({ theme }) => theme.colors.lblue};
-  }
+  
   .comingSoon{
     color: #7d7c7c !important;
     pointer-events: none !important;
