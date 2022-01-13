@@ -72,13 +72,13 @@ html{
     left:50%;
     width: 6rem;
     height: 6rem;
-    border: 2px solid ${({ theme }) => theme.colors.blue};
+    border: 2px solid ${({ theme }) => theme.colors.lblue};
     border-radius: 50%;
     transition: transform .2s linear;
   }
   .cursor:after{
     opacity: 0;
-    background-color:${({ theme }) => theme.colors.blue};
+    background-color:${({ theme }) => theme.colors.lblue};
   }
   .comingSoon{
     color: #7d7c7c !important;
@@ -97,6 +97,7 @@ html{
       border-radius: 10px;
       transform: translate(-50%,-50%);
     } */
+
   }
    /* make after opacity 1 to highlight */
   .navLinkHighlight,.IconHighLight{
@@ -136,6 +137,7 @@ html{
   border-radius: 50%;
   background-color: red;
 }
+
 .glass{
       backdrop-filter: blur(10px);
       background: rgba(255,255,255,0.2);
@@ -143,6 +145,7 @@ html{
       border:solid 2px transparent;
       background-clip: padding-box;
     }
+
     .ScrollContainer{
       height:100vh;
       width:100vw;
@@ -155,3 +158,4 @@ html{
       height:100%;
       width:100%;
     }
+`
